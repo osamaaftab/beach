@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="swipe_color1">#01DFD7</color>
+    <color name="swipe_color2">#01DF3A</color>
+    <color name="swipe_color3">#FFD300</color>
+    <color name="swipe_color4">#FF4000</color>
+    <color name="primaryEdittext">#FFD300</color>
+    <color name="primarydark_content">#A12E31</color>
+    <color name="primarydark_news">#08A5C8</color>
+    <color name="primart_content">#E34145</color>
+    <color name="primarydark_bonus">#E2C838</color>
+    <color name ="primarydark_store">#4C903A</color>
+    <color name ="primarydark_games">#A2682A</color>
+    <color name="primary_light">#800080</color>
+
+
+
+
+    <!--Indigo 500-->
+    <color name="primary_500">#3F51B5</color>
+    <!--Indigo 700-->
+    <color name="primary_700">#303F9F</color>
+    <!--Pink 500-->
+    <color name="accent_500">#E91E63</color>
+    <!--Pink 700-->
+    <color name="accent_700">#C2185B</color>
+    <color name="black_trans80">#14000000</color>
+
+    <color name="indicator_unselected">#4D000000</color>
+
+
+    <color name="blue_grey">#455A64</color>
+    <color name="red">#F44336</color>
+    <color name="pink">#E91E63</color>
+    <color name="colorPrimaryDark">#9C27B0</color>
+    <color name="colorPrimary">#800080</color>
+    <color name="colorAccent">#3F51B5</color>
+    <color name="blue">#2196F3</color>
+    <color name="light_blue">#03A9F4</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="teal">#009688</color>
+    <color name="green">#4CAF50</color>
+    <color name="light_green">#8BC34A</color>
+    <color name="lime">#CDDC39</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="amber">#FFC107</color>
+    <color name="orange">#FF9800</color>
+    <color name="deep_orange">#FF5722</color>
+    <color name="slide1">#FFD545</color>
+    <color name="slide2">#50b748</color>
+    <color name="slide3">#ec1c24</color>
+    <color name="slide4">#f48120</color>
+    <color name="slide5">#ffd300</color>
+
+
+
+
+
+</resources>
