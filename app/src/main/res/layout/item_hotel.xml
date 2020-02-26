@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
         android:background="#FEFEFE"
-        app:cardCornerRadius="4dp">
+        app:cardCornerRadius="@dimen/_3sdp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -47,7 +47,7 @@
                 <androidx.viewpager.widget.ViewPager
                     android:id="@+id/galleryViewPager"
                     android:layout_width="match_parent"
-                    android:layout_height="250dp"
+                    android:layout_height="@dimen/_193sdp"
                     app:gallery="@{galleryAdpater}" />
 
                 <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
@@ -71,7 +71,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="7dp">
+                android:padding="@dimen/_6sdp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -83,7 +83,7 @@
                         android:fontFamily="@font/roboto_thin"
                         android:text="@{hotelItem.name}"
                         android:textColor="@android:color/black"
-                        android:textSize="22sp"
+                        android:textSize="@dimen/_17ssp"
                         android:textStyle="bold" />
 
                     <LinearLayout
@@ -95,14 +95,14 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:layout_width="15dp"
-                            android:layout_height="15dp"
+                            android:layout_width="@dimen/_11sdp"
+                            android:layout_height="@dimen/_11sdp"
                             android:src="@drawable/ic_rate" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="@dimen/_3sdp"
                             android:fontFamily="@font/roboto_thin"
                             android:text="@{hotelItem.rating}"
                             android:textColor="@android:color/black"
@@ -119,9 +119,9 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:layout_width="12dp"
-                        android:layout_height="12dp"
-                        android:layout_marginRight="5dp"
+                        android:layout_width="@dimen/_10sdp"
+                        android:layout_height="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_3sdp"
                         android:src="@drawable/ic_location" />
 
                     <TextView
@@ -130,7 +130,7 @@
                         android:fontFamily="@font/roboto_light"
                         android:text="@{hotelItem.hotel_location}"
                         android:textColor="@android:color/black"
-                        android:textSize="15sp"
+                        android:textSize="@dimen/_11ssp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -138,11 +138,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="@dimen/_3sdp"
                     android:fontFamily="@font/roboto_thin"
                     android:text="@{hotelItem.description}"
                     android:textColor="@android:color/black"
-                    android:textSize="15sp" />
+                    android:textSize="@dimen/_11ssp" />
 
 
                 <androidx.recyclerview.widget.RecyclerView

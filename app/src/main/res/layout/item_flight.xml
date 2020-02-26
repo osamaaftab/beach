@@ -12,7 +12,7 @@
         <variable
             name="flightItem"
             type="com.osamaaftab.onthebeach.domain.model.FlightItem" />
-
+s
         <variable
             name="flightViewModel"
             type="com.osamaaftab.onthebeach.presentation.viewmodel.FlightsViewModel" />
@@ -21,14 +21,14 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="4dp"
+        android:layout_margin="@dimen/_3sdp"
         android:background="#FEFEFE"
-        app:cardCornerRadius="4dp">
+        app:cardCornerRadius="@dimen/_3sdp">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="7dp">
+            android:padding="@dimen/_6sdp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -41,7 +41,7 @@
                     android:fontFamily="@font/roboto_thin"
                     android:text="@{flightItem.airline}"
                     android:textColor="@android:color/black"
-                    android:textSize="30sp"
+                    android:textSize="@dimen/_23sdp"
                     android:textStyle="bold"
                     tools:text="Flight" />
 
@@ -50,10 +50,10 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
                     android:fontFamily="@font/roboto_thin"
-                    android:paddingTop="9.5dp"
+                    android:paddingTop="@dimen/_7sdp"
                     android:text="@{`$` + flightItem.price}"
                     android:textColor="@android:color/black"
-                    android:textSize="22sp"
+                    android:textSize="@dimen/_17ssp"
                     android:textStyle="bold"
                     tools:text="Price" />
 
@@ -81,8 +81,7 @@
                             android:singleLine="true"
                             android:text="@{flightItem.departure_airport}"
                             android:textColor="@color/primary_light"
-                            android:textSize="16sp" />
-
+                            android:textSize="@dimen/_13ssp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -90,9 +89,9 @@
                             android:layout_below="@+id/destination"
                             android:fontFamily="@font/roboto_light"
                             android:singleLine="true"
-                            app:date="@{flightItem.departure_date}"
                             android:textColor="@android:color/black"
-                            android:textSize="15sp" />
+                            android:textSize="@dimen/_11ssp"
+                            app:date="@{flightItem.departure_date}" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -109,8 +108,8 @@
                             android:layout_height="wrap_content">
 
                             <ImageView
-                                android:layout_width="20dp"
-                                android:layout_height="20dp"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
                                 android:layout_gravity="center"
                                 android:src="@drawable/ic_plane" />
 
@@ -141,7 +140,7 @@
                             android:singleLine="true"
                             android:text="@{flightItem.arrival_airport}"
                             android:textColor="@color/primary_light"
-                            android:textSize="16sp" />
+                            android:textSize="@dimen/_13ssp" />
 
 
                         <TextView
@@ -151,9 +150,9 @@
                             android:layout_below="@+id/destination"
                             android:fontFamily="@font/roboto_light"
                             android:singleLine="true"
-                            app:date="@{flightItem.arrival_date}"
                             android:textColor="@android:color/black"
-                            android:textSize="15sp" />
+                            android:textSize="@dimen/_11sdp"
+                            app:date="@{flightItem.arrival_date}" />
                     </LinearLayout>
                 </LinearLayout>
             </RelativeLayout>

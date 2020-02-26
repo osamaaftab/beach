@@ -18,10 +18,10 @@
         android:layout_marginBottom="@dimen/_8sdp"
         android:background="@drawable/facility"
         android:orientation="vertical"
-        android:paddingLeft="12dp"
-        android:paddingTop="3dp"
-        android:paddingRight="12dp"
-        android:paddingBottom="3dp">
+        android:paddingLeft="@dimen/_9sdp"
+        android:paddingTop="@dimen/_2sdp"
+        android:paddingRight="@dimen/_9sdp"
+        android:paddingBottom="@dimen/_2sdp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -29,7 +29,7 @@
             android:fontFamily="@font/roboto_light"
             android:text="@{url}"
             android:textColor="@color/primary_light"
-            android:textSize="12sp" />
+            android:textSize="@dimen/_9ssp" />
 
     </LinearLayout>
 
